@@ -1,0 +1,786 @@
+<!-- I DID MY BEST & AM GONNA IMPROVE -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ecommerce</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="code.js"></script>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Best Clothes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <form class="d-flex mx-auto my-2 my-lg-0">
+          <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success rounded-0" type="submit">Search</button>
+        </form>
+        <button class="btn btn-light" type="submit"> <a href="login.html"
+            style="text-decoration: none;">Login</a></button>
+        <a href="cart.html" style="text-decoration: none;"> <i class="fa-solid fa-cart-shopping ms-5"
+            style="color: aqua;"> </i> </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDarkDropdown">
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="allproducts.html">All Products</a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Women
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="allproducts.html">All</a></li>
+              <li><a class="dropdown-item" href="allproducts.html">Desses</a></li>
+              <li><a class="dropdown-item" href="allproducts.html">Pants</a></li>
+              <li><a class="dropdown-item" href="allproducts.html">Skirts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Men
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="allproducts.html">Shirts</a></li>
+              <li><a class="dropdown-item" href="allproducts.html">Pants</a></li>
+              <li><a class="dropdown-item" href="allproducts.html">Hoodies</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="kids.html">Kids</a>
+        <a class="navbar-brand" href="contact.html">Contacts</a>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div>
+    <section class="head container-fluid">
+      <div class="overlay">
+
+        <h1 class="heading">Best Clothes
+          <p class="para" style="font-size: 20px; color: white;">
+            We are the best in Business</p>
+        </h1>
+        <br>
+      </div>
+    </section>
+
+  </div>
+  <div>
+    <h1 class="text-center" style="color: white; margin: 1em; font-size: 5em;">Featured products</h1>
+
+
+    <!-- new -->
+
+    <section id="largeScreenSlider"
+      class="carousel featured container-fluid p-0 slide large-screen-slider d-none d-md-none d-lg-block"
+      data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active  ">
+          <div class="container  four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- !  slider cards  -->
+                <div class="card h-100 w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1619785292559-a15caa28bde6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple Dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Woolen top</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Dungaree</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1578632292335-df3abbb0d586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Long red coat</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- ! card as single item   -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Cheetah shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Blue taxedo</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple t-shirt </h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- ! card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src=" https://images.unsplash.com/photo-1487033858121-f6f74a05c1de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a2lkJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Turkey dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599624427857-461fd60c23e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGtpZCUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Frock</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1554342321-0776d282ceac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2lkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Green t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599818497948-eea9a2698ddd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" data-bs-target="#largeScreenSlider" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" data-bs-target="#largeScreenSlider" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
+
+    <!-- !  carousel for medium devices -->
+    <section id="mediumScreenSlider"
+      class="carousel featured slide container-fluid p-0 medium-screen-slider d-none d-md-block d-lg-none"
+      data-ride="carousel">
+      <h4 class="text-center">Featured products</h4>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container  four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- !card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1619785292559-a15caa28bde6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple Dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Woolen top</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Dungaree</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1578632292335-df3abbb0d586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Red long coat</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- ! card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Cheeyah t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Blue taxedo</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black T-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- ! card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src=" https://images.unsplash.com/photo-1487033858121-f6f74a05c1de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a2lkJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Turkey dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599624427857-461fd60c23e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGtpZCUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Frock</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1554342321-0776d282ceac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2lkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Green T-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599818497948-eea9a2698ddd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" data-bs-target="#mediumScreenSlider" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" data-bs-target="#mediumScreenSlider" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
+    <!-- ! carousel for  smaller devices -->
+
+    <section id="smallScreenSlider" class="carousel featured slide small-screen-slider p-0 d-block d-md-none d-lg-none"
+      data-ride="carousel">
+      <h4 class="text-center ">Featured products</h4>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <div class="container  four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- !  card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1619785292559-a15caa28bde6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Woolen top</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhpbmclMjBtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Dungaree</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1578632292335-df3abbb0d586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Red long coat</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap  border border-dark">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- !  card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Cheetah t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Blue taxedo</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVuJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Purple t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container four-item-slide">
+            <div class="row flex-nowrap  ">
+              <div class="col-12 col-md-6 col-lg-3">
+                <!-- ! card as single item  -->
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src=" https://images.unsplash.com/photo-1487033858121-f6f74a05c1de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a2lkJTIwbW9kZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Turkey dress</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599624427857-461fd60c23e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGtpZCUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Frock</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1554342321-0776d282ceac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2lkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Green t-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card w-100 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1599818497948-eea9a2698ddd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top" alt="...">
+                  <div class="card-body border border overflow-y-auto">
+                    <h3 class="item-price">$100</h3>
+                    <h5 class="card-title">Black T-shirt</h5>
+                    <p class="card-text">Buy it. It is very good</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-around align-items-center w-50 mx-auto">
+                      <i class="fa fa-cart-shopping"></i> Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" data-bs-target="#smallScreenSlider" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" data-bs-target="#smallScreenSlider" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-4 sticky-footer">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Women</h5>
+            <div class="listItems">
+
+              <li>Dresses</li>
+              <li>Pants</li>
+              <li>Skirts</li>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Men</h5>
+            <div class="listItems">
+
+              <li>Shirts</li>
+              <li>Pants</li>
+              <li>Hoodies</li>
+
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Kids</h5>
+
+
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
+            <p><a href="index.html" class="text-white" style="text-decoration: none;">Home</a></p>
+            <p><a href="login.html" class="text-white" style="text-decoration: none;">Login</a></p>
+            <p><a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a></p>
+
+          </div>
+        </div>
+        <hr class="mb-4">
+
+
+        <p style="text-align: center;">copyright@Ecommerce 2022-2023</p>
+
+
+      </div>
+  </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

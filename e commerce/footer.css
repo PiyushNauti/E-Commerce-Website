@@ -1,0 +1,11 @@
+.listItems{
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+}
+.sticky-footer{
+    margin-top: auto;
+}
+.body{
+    min-height: 100vh ;
+}

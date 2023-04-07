@@ -1,0 +1,80 @@
+.itemList{
+    width: 80%;
+    border: 1px solid black;
+    
+    float: left;
+    margin: 0px;
+     
+}
+.summaryHeader{
+    text-align: center;
+    background-color: rgb(200, 189, 189);
+    margin: 0;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.52rem;
+    border: 1px solid black;
+
+}
+.summary{
+    width: 18%;
+    float: right;
+    margin: 0px;
+    border: 1px solid black;
+
+    
+}
+.bn:hover{
+    cursor: pointer;
+}
+.ro{
+    margin: 15px;
+    
+}
+.itemListHeader{
+    text-align: center;
+    background-color: rgb(200, 189, 189);
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+.itemImgCnt{
+    margin: 0.5rem;
+   
+    width: 30%;
+    padding: 0;
+    /* display: inline-block; */
+}
+.itemPriceCnt{
+    /* display: inline-block; */
+   
+    width: 70%;
+    margin: 0.5em;
+    padding: 35px;
+    
+
+}
+.item{
+    display: flex;
+}
+
+  
+   
+.image{
+        min-width: 200px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+.itemSummary{
+    border: 1px solid black;
+   
+    width: 100%;
+}
+.itemTotalCost{
+    display: flex;
+    justify-content: space-between;
+}
